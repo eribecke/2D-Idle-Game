@@ -13,4 +13,15 @@ public class GameManger : MonoBehaviour
         currIncome += money;
         displayText.SetText("Income: " + currIncome);
     }
+
+    public float GetIncome()
+    {
+        return currIncome; 
+    }
+
+    public void SetIncome(float money)
+    {
+        currIncome = money;
+        displayText.SetText("Income: " + currIncome);
+    }
 }
